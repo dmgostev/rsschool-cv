@@ -1,1 +1,14 @@
-Empty for now
+footer {
+    text-align: right;
+    padding-right: 20%;
+}
+#text {
+    padding: 0 20% 0 5%;
+}
+
+#code {
+    padding: 10px 5%;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(194, 194, 194);
+}
