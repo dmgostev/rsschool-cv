@@ -1,7 +1,11 @@
 <!DOCTYPE html>
   <html lang="en">
-    <title>Resume</title>
+    <head>
+      <link rel="stylesheet" href="style.css">
+      <title>Resume</title>
+    </head>
     <body>
+    <div id="text">
       <h1>Dmitry Gostev</h1>
         <h2>Junior Frontend Developer</h2>
 
@@ -28,15 +32,17 @@
           <h3>Code examples</h3>
           <p>It is a function that converts US dollars (USD) to Chinese Yuan (CNY). The input is the amount of USD as an integer, and the output should be a string that states the amount of Yuan followed by 'Chinese Yuan'. The conversion rate is 6.75 CNY for every 1 USD. All numbers are represented as a string with 2 decimal places.</p>
 
-          <code>
+          <div id="code">
+            <code>
             function usdcny(usd) {<br>
             return (usd*6.75).toFixed(2) + ' Chinese Yuan';<br>
             }<br>
-          </code>
+            </code>
+          </div>
 
           <h3>Experience</h3>
           <ul>
-            <li>RS School Course "JavaScript/Front-end 2022Q1" (in progress)</li>
+            <li>RS School Course "JavaScript/Front-end 2023Q4" (in progress)</li>
           </ul>
 
           <h3>Education</h3>
@@ -49,5 +55,12 @@
             <li>Russian - Native</li>
             <li>English - Intermediate (B1)</li>
           </ul>
-        </body>
-    </html>
+    </div>
+    <footer>
+      <p>GitHub: <a href="https://github.com/dmgostev">@dmgostev</a><br>
+      26th of November 2023<br>
+      <img alt="RS School" width="100" height="30" decoding="async" src="logo-rsschool3.png"><br>
+      </p>
+    </footer>
+    </body>
+  </html>
